@@ -61,7 +61,6 @@ const addCourseToUI = (course) => {
             <p>${course.name}</p>
             <small class="text-muted">by ${course.lecturer}</small>
             <small class="text-muted">at ${course.venue}</small><br>
-            <small class="btn btn-secondary btn-sm edit ${course.id}">Edit</small>
             <small class="btn btn-danger btn-sm delete ${course.id}">&times;</small>
         </div>
     `;
